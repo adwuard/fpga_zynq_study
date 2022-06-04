@@ -1,0 +1,1 @@
+-wto "89a1afa37815412380f58fbef3c2ef00" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "led_stream_behav" "xil_defaultlib.led_stream" "xil_defaultlib.glbl" -log "elaborate.log" 
