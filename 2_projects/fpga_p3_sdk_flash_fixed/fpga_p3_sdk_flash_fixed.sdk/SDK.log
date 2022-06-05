@@ -1,0 +1,9 @@
+23:18:45 INFO  : Registering command handlers for SDK TCF services
+23:18:47 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\edward\Documents\FPGA_Workspace\fpga_zynq_study\2_projects\fpga_p3_sdk_flash_fixed\fpga_p3_sdk_flash_fixed.sdk\temp_xsdb_launch_script.tcl
+23:18:52 INFO  : XSCT server has started successfully.
+23:18:55 INFO  : Successfully done setting XSCT server connection channel  
+23:18:55 INFO  : Successfully done setting SDK workspace  
+23:18:55 INFO  : Processing command line option -hwspec C:/Users/edward/Documents/FPGA_Workspace/fpga_zynq_study/2_projects/fpga_p3_sdk_flash_fixed/fpga_p3_sdk_flash_fixed.sdk/design_1_wrapper.hdf.
+23:25:02 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynq -o C:\Users\edward\Documents\FPGA_Workspace\fpga_zynq_study\2_projects\fpga_p3_sdk_flash_fixed\fpga_p3_sdk_flash_fixed.sdk\fsbl\Debug\BOOT.bin
+23:25:02 INFO  : Creating new bif file C:\Users\edward\Documents\FPGA_Workspace\fpga_zynq_study\2_projects\fpga_p3_sdk_flash_fixed\fpga_p3_sdk_flash_fixed.sdk\fsbl\Debug\output.bif
+23:25:05 INFO  : Bootgen command execution is done.

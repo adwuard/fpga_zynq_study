@@ -1,0 +1,26 @@
+Objective
+With verilog being compiled into bitstream, We utilize the ZYNQ PS Soc as our bootloader for the PL.
+Flashing the bitstream to onboard flash we ensure the PL's feature will exit on every bootup.
+
+### steps
+ - create zynq ip block design, and configure it with relative QFlash and DDR configuration. 
+ - Create Zynq HDL wrapper
+
+ - Add PL side of application. In this case its breath led from previous project.
+
+ - Add input and output wires into zynq block design wrapper and create breath_led instence
+
+ - run synth.
+ - configure io ports planning 
+ - rerun synth and then run implementation
+ - generate bit stream
+
+ - Export File>Export>Hardware add bitstram and create handoff files.
+
+
+- Lunch Xilinx SDK (File > SDK) SDK will load the hardware we just exported.
+
+- New project application and create First Stage Bootloader (FSBL) for Zynq
+
+
+- XILINX->Create Boot Image
